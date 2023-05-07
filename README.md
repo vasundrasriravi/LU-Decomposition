@@ -1,4 +1,4 @@
-# LU Decomposition 
+# LU Decomposition to find L and U matrix
 
 ## AIM:
 To write a program to find the LU Decomposition of a matrix.
@@ -15,7 +15,7 @@ To write a program to find the LU Decomposition of a matrix.
 5. Print L and U.
 
 ## Program:
-(i) To find the L and U matrix
+
 ```
 #Program to find the L and U matrix.
 #Developed by: VASUNDRA SRI R
@@ -36,8 +36,23 @@ print(U)
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
+Using LU Decomposition to solve a matrix
 
-(ii) To find the LU Decomposition of a matrix
+## AIM:
+To write a program to find the LU Decomposition of a matrix.
+
+## Equipments Required:
+1. Hardware – PCs
+2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
+
+## Algorithm
+1. Import numpy as np.
+2. Import lu_factor and lu_solve from scipy.linalg.
+3. Get the input of A and B matrix.
+4. Assign lu and piv (lu and pivot matrix) to lu_factor of A.
+5. Assign X to lu_solve of lu and piv with B and print X.
+
+##Program:
 ```
 #Program to find the LU Decomposition of a matrix.
 #Developed by: VASUNDRA SRI R
