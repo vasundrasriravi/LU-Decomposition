@@ -36,7 +36,7 @@ print(U)
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
-Using LU Decomposition to solve a matrix
+# Using LU Decomposition to solve a matrix
 
 ## AIM:
 To write a program to find the LU Decomposition of a matrix.
