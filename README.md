@@ -52,7 +52,7 @@ To write a program to find the LU Decomposition of a matrix.
 4. Assign lu and piv (lu and pivot matrix) to lu_factor of A.
 5. Assign X to lu_solve of lu and piv with B and print X.
 
-##Program:
+## Program:
 ```
 #Program to find the LU Decomposition of a matrix.
 #Developed by: VASUNDRA SRI R
